@@ -35,15 +35,33 @@ Keyboard & Mouse: For coding and testing.
 Monitor,proceser,operating system
 
 ### Implementation
-For Software:
+For Software:2. Technologies & Software Used
+Software Component	Technology Used
+Frontend	HTML, CSS, JavaScript
+Backend (API Calls)	JavaScript (Fetch API)
+AI Processing	OpenAI API / DeepSeek API
+Development Environment	VS Code, Node.js (for local API testing)
+Version Control	Git & GitHub
+Hosting (Optional)	Firebase, Vercel, Netlify
 # Installation
 [commands]
 
 # Run
-[commands]
+1. Install Required Software
+Make sure you have the following installed:
+
+Node.js (for API calls and backend processing)
+VS Code (or any code editor)
+Git (for version control)
+git clone https://github.com/your-repo/skill-assessment.git
+cd skill-assessment
+
 
 ### Project Documentation
-For Software:
+For Software:Frontend:
+HTML – Structure of the web application
+CSS – Styling for the interface
+JavaScript – Logic for question flow and API integration
 
 # Screenshots (Add at least 3)
 ![image](https://github.com/user-attachments/assets/82fe0157-91fa-4cec-bb70-0dc264481bf6)
