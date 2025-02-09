@@ -1,20 +1,20 @@
-# [Project Name] 🎯
+Skill developing web🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Tech titans 2
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Krishna m g- College of engineering attingal
+- Member 2: Nila s- College of engineering attingal
+- Member 3: Varsha Biju - College of engineering attingal
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://github.com/varshabiju/Skill-Developing-web-/edit/main/README.md
 
 ### Project Description
-[2-3 lines about what your project does]
+To dentify the skills of a person by multiple questions
 
 ### The Problem statement
 [What ridiculous problem are you solving?]
