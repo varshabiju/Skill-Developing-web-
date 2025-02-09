@@ -145,12 +145,12 @@ For Hardware:
 *Explain what the video demonstrates*
 
 # Additional Demos
-[Add any extra demo materials/links]
+https://varshabiju.github.io/Skill-Developing-web-/
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- krishna.m.g: made UI 
+- nila.s:coding 
+- varsha biju:coding 
 
 ---
 Made with ❤️ at TinkerHub
