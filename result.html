@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Development Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #cbaf11, #fcb125);
+            margin: 20px;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            background: #e9ffe9;
+            border-left: 5px solid #28a745;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Skill Development Questionnaire</h2>
+        <form id="skillForm">
+            <label for="name">What is your name?</label>
+            <input type="text" id="name" required>
+
+            <label for="profession">What is your current profession?</label>
+            <input type="text" id="profession" required>
+
+            <label for="hobbies">What are your hobbies?</label>
+            <textarea id="hobbies" rows="3" required></textarea>
+
+            <label for="strength">What is one skill you are confident in?</label>
+            <input type="text" id="strength" required>
+
+            <label for="weakness">What is one skill you wish to improve?</label>
+            <input type="text" id="weakness" required>
+            <label for="Personal integrity">how do you handle a situation where you've made a mistake or failed at a task?</label>
+            <input type="text" id="Personal integrity" required>
+            <label for="accountability">how do you handle constructive criticism or feedback?</label>
+            <input type="text" id="accountability" required>
+            <label for="empathy and compassion">How do you handle a situation where someone is upset or emotional ?</label>
+            <input type="text" id="empathy and compassion" required>
+            <label for="self awarness">how do you handle feedback or criticism that challenges your self image?</label>
+            <input type="text" id="self awarness" required>
+            <label for="adaptability">How do  you handle ambiguity or uncertainty in the work place?</label>
+            <input type="text" id="adaptability" required>
+            <label for="courage">How do  you handle situation where you faced with opposition or resistance?</label>
+            <input type="text" id="courage" required>
+
+            <label for="goal">Which skills do you want to develop in the next 6 months?</label>
+            <textarea id="goal" rows="3" required></textarea>
+
+            <button type="button" onclick="analyzeSkills()">Submit</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function analyzeSkills() {
+            let name = document.getElementById("name").value;
+            let profession = document.getElementById("profession").value;
+            let hobbies = document.getElementById("hobbies").value;
+            let strength = document.getElementById("strength").value;
+            let weakness = document.getElementById("weakness").value;
+            let Personal_integrity= document.getElementById("Personal integrity").value;
+            let accountability= document.getElementById("accountability").value;
+            let self_awarness = document.getElementById("self awarness").value;
+            let adaptability = document.getElementById("adaptability").value;
+            let courage  = document.getElementById("courage").value;
+    
+    
+            let empathy_and_compassion = document.getElementById("empathy and compassion").value;
+
+            let goal = document.getElementById("goal").value;
+
+            if(name && profession && hobbies && strength && weakness && goal) {
+                let resultText = `<strong>Hello ${name}, based on your responses:</strong><br>` +
+                                 `<ul>` +
+                                 `<li><strong>Profession:</strong> ${profession}</li>` +
+                                 `<li><strong>Hobbies:</strong> ${hobbies}</li>` +
+                                 `<li><strong>Strength:</strong> ${strength}</li>` +
+                                 `<li><strong>Weakness:</strong> ${weakness}</li>` +
+                                 `- self awarness: ${self_awarness}\n` +
+                    `- adaptability: ${adaptability}\n` +
+                    `-accountability: ${accountability}\n` +
+            `-empathy_and_compassion: ${empathy_and_compassion}\n` +
+                                 `<li><strong>Goal:</strong> ${goal}</li>` +
+                                 `<li><strong>courage:</strong> ${courage}</li>` +
+                                 `</ul>`;
+                
+                let resultDiv = document.getElementById("result");
+                resultDiv.innerHTML = resultText;
+                resultDiv.style.display = "block";
+            } else {
+                alert("Please fill in all fields.");
+            }
+        }
+    </script>
+</body>
+</html>
