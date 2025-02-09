@@ -17,23 +17,22 @@ https://github.com/varshabiju/Skill-Developing-web-/edit/main/README.md
 To dentify the skills of a person by multiple questions
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+design and develop a personalised self development platform that empowers users test and achieve goals 
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+By analysing multiple questions finding the solution fortheir problems
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+Languages: HTML, CSS, JavaScript
+Frameworks/Libraries: React.js, Angular, Vue.js, Svelte
+CSS Frameworks: Bootstrap, Tailwind CSS, Material UI
+Tools: Webpack, Vite, Babel
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+For Hardware:Laptop/Desktop: Required for development.
+Keyboard & Mouse: For coding and testing.
+Monitor,proceser,operating system
 
 ### Implementation
 For Software:
