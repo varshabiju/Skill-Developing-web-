@@ -118,8 +118,10 @@ JavaScript – Logic for question flow and API integration
 For Hardware:
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+[Raspberry Pi] --(HDMI)--> [Touchscreen Display]
+[Raspberry Pi GPIO] --(I2C)--> [ESP8266 WiFi Module]
+[Raspberry Pi USB] --(Power)--> [Microphone]
+
 
 ![Schematic](Add your schematic diagram here)
 *Add caption explaining the schematic*
