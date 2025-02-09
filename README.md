@@ -74,8 +74,46 @@ JavaScript – Logic for question flow and API integration
 
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+![User] ---> [Skill Assessment Website] ---> [AI API Processing] ---> [Analysis & Response] ---> [Display to User]
+    +---------------------+
+    |  Start             |
+    +---------------------+
+            |
+            v
+    +---------------------+
+    |  User Opens Website |
+    +---------------------+
+            |
+            v
+    +---------------------+
+    |  Displays Questions |
+    +---------------------+
+            |
+            v
+    +---------------------+
+    |  User Inputs Answers |
+    +---------------------+
+            |
+            v
+    +-------------------------------+
+    |  Send Answers to AI API (DeepSeek) |
+    +-------------------------------+
+            |
+            v
+    +-------------------------------+
+    |  AI Analyzes Response & Sends Back Results |
+    +-------------------------------+
+            |
+            v
+    +-------------------------------+
+    |  Display Skill Analysis & Recommendations |
+    +-------------------------------+
+            |
+            v
+    +---------------------+
+    |   End               |
+    +---------------------+
+
 
 For Hardware:
 
